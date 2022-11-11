@@ -10,7 +10,7 @@ import Charts
 
 class BithumbBarDataSet: BarChartDataSet {
     convenience init(entryArr: BarChartDataEntries) {
-        self.init(entries: entryArr.values, label: nil)
+        self.init(entries: entryArr.values, label: "")
         
         let increasingColor = UIColor.increasingColor?.cgColor ?? UIColor.systemRed.cgColor
         let decreasingColor = UIColor.decreasingColor?.cgColor ?? UIColor.systemBlue.cgColor
@@ -20,7 +20,7 @@ class BithumbBarDataSet: BarChartDataSet {
         )
     }
     
-    override init(entries: [ChartDataEntry]?, label: String?) {
+    override init(entries: [ChartDataEntry], label: String) {
         super.init(entries: entries, label: label)
         self.colors = ChartColorTemplates.material()
         self.drawValuesEnabled = false

@@ -1,16 +1,44 @@
 PODS:
+  - Alamofire (5.6.2)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - Realm (10.32.2):
+    - Realm/Headers (= 10.32.2)
+  - Realm/Headers (10.32.2)
+  - RealmSwift (10.32.2):
+    - Realm (= 10.32.2)
   - SpreadsheetView (0.9.1)
+  - Starscream (4.0.4)
+  - SwiftAlgorithms (1.0.0)
 
 DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - RealmSwift
   - SpreadsheetView
+  - Starscream (~> 4.0.0)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - Charts
+    - Realm
+    - RealmSwift
     - SpreadsheetView
+    - Starscream
+    - SwiftAlgorithms
 
 SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  Realm: a11d133606e898ee43ddd3c24050a382c8d3eab1
+  RealmSwift: f796f7701a5efa031554d5639ef5b2d4c850bc74
   SpreadsheetView: 688dbd19f2b355df0eb09e486266fd913a013449
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
 
-PODFILE CHECKSUM: 26f88bce2984f4c89aac568c51ca7a5158a1ac50
+PODFILE CHECKSUM: 9148ac009baecb4daddcece452ecb533ad7ef7b3
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

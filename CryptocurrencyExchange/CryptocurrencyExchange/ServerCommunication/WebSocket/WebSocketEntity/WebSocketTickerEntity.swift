@@ -11,6 +11,7 @@ struct WebSocketTickerEntity: Codable {
     let type: WebSocketType
     let content: WebSocketTickerContent
 }
+
 struct WebSocketTickerContent: Codable {
     let symbol: String              // 통화코드
     let tickType: WebSocketTickType // 변동 기준시간- 30M, 1H, 12H, 24H, MID

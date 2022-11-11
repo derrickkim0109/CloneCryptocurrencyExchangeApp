@@ -2,10 +2,9 @@
 //  ParamOptionDataType.swift
 //  CryptocurrencyExchange
 //
-//  Created by Yoojin Park on 2022/02/24.
+//  Created by Derrick on 2022/11/09.
 //
 
-import Foundation
 import RealmSwift
 
 enum OrderCurrency {
@@ -14,6 +13,7 @@ enum OrderCurrency {
     
     var value: String {
         switch self {
+
         case .all:
             return "ALL"
         case .appoint(let name):

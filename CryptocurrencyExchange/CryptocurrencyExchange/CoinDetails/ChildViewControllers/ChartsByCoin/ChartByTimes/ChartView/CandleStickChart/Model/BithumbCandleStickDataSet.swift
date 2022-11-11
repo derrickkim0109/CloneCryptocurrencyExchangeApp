@@ -10,10 +10,10 @@ import Charts
 
 class BithumbCandleChartDataSet: CandleChartDataSet {
     convenience init(_ entryArr: [ChartDataEntry]) {
-        self.init(entries: entryArr, label: nil)
+        self.init(entries: entryArr, label: "")
     }
     
-    override init(entries: [ChartDataEntry]?, label: String?) {
+    override init(entries: [ChartDataEntry], label: String) {
         super.init(entries: entries, label: label)
         self.axisDependency = .right
         self.drawIconsEnabled = false

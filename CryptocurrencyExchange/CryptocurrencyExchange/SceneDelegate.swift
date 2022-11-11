@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  CryptocurrencyExchange
 //
-//  Created by Yoojin Park on 2022/02/23.
+//  Created by Derrick on 2022/11/09.
 //
 
 import UIKit

@@ -9,7 +9,11 @@ target 'CryptocurrencyExchange' do
 
   # SpreadSheet
   pod 'SpreadsheetView'
-
+  pod 'Alamofire'
+  pod 'Starscream', '~> 4.0.0'
+  pod 'Charts'
+  pod 'RealmSwift'
+ 
   target 'CryptocurrencyExchangeTests' do
     inherit! :search_paths
     # Pods for testing
